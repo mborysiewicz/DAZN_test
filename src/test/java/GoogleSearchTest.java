@@ -52,6 +52,6 @@ public class GoogleSearchTest {
     @After
     public void tearDown() throws Exception {
         // Zamknij przeglądarkę
-        driver.quit();
+        //driver.quit();
     }
 }
