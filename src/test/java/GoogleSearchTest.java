@@ -45,13 +45,13 @@ public class GoogleSearchTest {
             }
         });
 
-        assertEquals("Testowanie z Selenium. Receptury - Szukaj w Google",
+        assertEquals("Testowanie z Selenium. Receptury - Szukaj z Google",
                 driver.getTitle());
     }
 
     @After
     public void tearDown() throws Exception {
         // Zamknij przeglądarkę
-        //driver.quit();
+        driver.quit();
     }
 }
